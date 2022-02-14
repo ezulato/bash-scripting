@@ -1,0 +1,1 @@
+find WRITE_YOUR_PATH -name '*.WRITE_YOUR_EXTENSION*' -print | xargs grep -asnr 'WRITE_WHAT_ARE_YOU_LOOKING_FOR'
