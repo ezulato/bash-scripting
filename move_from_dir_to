@@ -1,0 +1,2 @@
+// move every file .YOUR_EXTENSION (eg. txt) in each subdir of PATH, to NEW_PATH
+ find "PATH" -iname '*.YOUR_EXTENSION' -exec mv '{}' "NEW_PATH"/ \;
