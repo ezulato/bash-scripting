@@ -1,0 +1,1 @@
+find <main_directory_where_.run_files_are_saved> -name '*.RUN*' -print | xargs grep -asnr '<your search param>' | awk -F/ '{print $NF}'
